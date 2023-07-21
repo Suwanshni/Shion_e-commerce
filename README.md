@@ -18,7 +18,8 @@
 - BootStrap
 - Thymeleaf
 - Git 
-- Mockito 
+- Mockito
+
 (And lots of hardwork and patience)
 
 ## Resources
