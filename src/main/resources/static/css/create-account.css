@@ -1,0 +1,52 @@
+.shion{
+ font-family: 'Sacramento';
+ font-size: 2em;
+ color: rgb(33, 37, 41);
+}
+
+table{
+ margin-top: 20px;
+ width:250px;
+ border:10px;
+ border-color: black;
+}
+
+.input{
+ margin-top: 10px;
+ border-radius: 4px;
+ height: 40px;
+ font-family: Poppins;
+}
+
+.pass{
+ padding-top:28px;
+ vertical-align:text-bottom;
+}
+
+#check{
+ width:15px;
+ height:15px;
+ vertical-align:middle;
+}
+
+.submit{
+ background-color: rgb(33, 37, 41);
+ margin-top: 20px;
+ border-radius: 12px;
+ height: 50px;
+ width: 100px;
+ border-color: rgb(33, 37, 41);
+ font-family: sans-serif;
+ color:white;
+}
+
+footer{
+ margin-top: 40px;
+ font-size: small;
+ text-align: center;
+}
+
+header{
+ font-family: Poppins;
+ font-size: 2em;
+}

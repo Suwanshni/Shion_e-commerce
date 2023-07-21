@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shion Sign in</title>
+
+    <!--FAVICON-->
+    <link rel="icon" type="images/x-icon" href="../static/images/android-chrome-512x512.png"
+        th:href="@{images/android-chrome-512x512.png}" class="icon" />
+
+    <!--BOOTSTRAP'S CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../static/css/sign-in.css" th:href="@{/css/sign-in.css}" />
+
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sacramento&display=swap" rel="stylesheet">
+
+    <!--AWESOME FONTS-->
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+
+<body>
+    <header>
+        <center>
+            <b class="welcome">WELCOME TO <b class="shion">Shion</b></b>
+        </center>
+    </header>
+
+    <!--Sign-in Form-->
+    <center>
+        <form method="post" th:action="@{/sign-in-user}" action="#" onsubmit="return ">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td align="center">User ID &nbsp;&nbsp;</td>
+                        <td><input type="email" name="signinemail" class="input" placeholder="  Enter your e-mail id"
+                                required="true" />
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td class="pass">Password &nbsp;&nbsp;</td>
+                        <td><input type="password" name="signinpassword" class="input" id="pwd" required="true"></td>
+                        <td><input type="checkbox" id="check"></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3"><input type="submit" class="submit"/></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </center><br>
+
+    <!--Forgot Password-->
+    <center>
+        <a href="forgot-password.html" th:href="@{/forgot-password}" class="forgotpassword">Forgot Password?</a>
+    </center>
+
+    <!--Create an account-->
+    <center>
+        <section>
+            <br>
+            <p class="new-to-shion">New to Shion?</p>
+            <!-- <button class="create-an-account" onclick="window.open('../create-account/create-account.html')"></button> -->
+            <a role="button" class="btn create-an-account" href="#"
+                th:href="@{/create-account}">Create a Shion account now</a>
+        </section>
+
+        <footer>
+            <p class="share">Share with your family and friends</p>
+            <i class="fa fa-facebook fa-2x"></i>
+            <i class="fa fa-twitter fa-2x"></i>
+            <i class="fa fa-pinterest fa-2x"></i>
+            <i class="fa fa-instagram fa-2x"></i>
+            <p><br>&#169; 2023, Shion.com, Inc. or its affiliates</p>
+        </footer>
+    </center>
+
+    <!--PASSWORD SHOW-->
+    <script src="sign-in.js"></script>
+
+    <!--BOOTSTRAP'S JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

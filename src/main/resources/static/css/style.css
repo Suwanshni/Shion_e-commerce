@@ -1,0 +1,96 @@
+* {
+ box-sizing: border-box;
+ font-family: Geologica;
+}
+
+@media screen and (min-width:761px) {
+
+ .nav-category {
+   font-size: large;
+   color: white;
+ }
+
+ .form-control {
+   height: 45px;
+   color: black;
+ }
+
+ .phone {
+   display: none;
+ }
+
+}
+
+@media screen and (max-width: 760px) {
+ .desktop {
+   display: none;
+ }
+
+ .navbar {
+   background-color: rgb(54, 74, 108);
+ }
+
+ #dropdownMenuLink {
+   font-weight: bold;
+   color: white;
+ }
+
+ .nav-category {
+   color: white;
+ }
+
+ .search {
+   background-color: rgb(33, 37, 41);
+   width: 100%;
+ }
+
+ form.search input[type=text] {
+   font-size: 15px;
+   float: center;
+   width: 60%;
+ }
+}
+
+.our-categories {
+ background-color: rgb(33, 37, 41);
+ color: white;
+ margin-top: 0px;
+}
+
+.card-title{
+ text-align: center;
+}
+
+.card {
+ margin: 20px 60px 0px 60px;
+}
+
+.category-btn-code{
+ background-color: rgb(33, 37, 41);
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.categories {
+ text-decoration: none;
+ color: rgb(33, 37, 41);
+ font-weight: bolder;
+}
+
+.col-2 {
+ float: left;
+ width: 50%;
+ padding: 15px;
+}
+
+.exciting-btn {
+ background-color: rgb(33, 37, 41);
+ color: white;
+ margin-top: 10px;
+}
+
+.footer{
+ text-align: center;
+ color:rgb(33, 37, 41);
+ font-weight: bolder;
+}

@@ -1,0 +1,77 @@
+.welcome{
+ font-family: Poppins;
+ font-size: 2em;
+}
+
+.shion{
+ font-family: 'Sacramento';
+ font-size: 2em;
+ color: rgb(33, 37, 41);
+}
+
+table{
+ margin-top: 20px;
+ width:250px;
+ border:10px;
+ border-color: black;
+}
+
+.input{
+ margin-top: 10px;
+ border-radius: 4px;
+ height: 40px;
+ font-family: Poppins;
+}
+
+.pass{
+ vertical-align:text-bottom;
+ padding-top:28px;
+}
+
+#check{
+ width:15px;
+ height:15px;
+ vertical-align:middle;
+}
+
+.submit{
+ background-color: rgb(33, 37, 41);
+ margin-top: 20px;
+ border-radius: 12px;
+ height: 50px;
+ width: 100px;
+ border-color: rgb(33, 37, 41);
+ font-family: sans-serif;
+ color:white;
+}
+
+.forgotpassword{
+ text-decoration: none;
+}
+
+.new-to-shion{
+ margin-top: 10px;
+ font-family: Poppins;
+}
+
+.create-an-account{
+ border-radius: 8px;
+ background-color: rgb(33, 37, 41);
+ border-color: rgb(33, 37, 41);
+ font-family: sans-serif;
+ color:white;
+}
+
+footer{
+ margin-top: 40px;
+ font-size: small;
+}
+
+.share{
+ font-size: large;
+ font-family: Poppins;
+}
+
+.fa{
+ margin-right: 10px;
+}
